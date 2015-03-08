@@ -44,11 +44,11 @@ public class Teste
        System.out.printf("selecione qual tipo de numeros voce quer ver:\n\n(1)primos\n(2)multiplos de cinco\n(3)pares\n\n");
        h = input.nextInt();
        
-       if(h == 1)
+       if(h == 1) // Switch
        {
           primos(args);
        } 
-       if(h == 2)
+       if(h == 2) //switch
        {
     	   h = 0;
     	   System.out.printf("digite a quantidade de multiplos de cinco que voce quer consultar\n\n");
@@ -67,7 +67,7 @@ public class Teste
        
        
               
-       if(h==3)
+       if(h==3) //switch
        {
     	    h=0;
     	    System.out.printf("digite a quantidade de numeros pares que voce quer consultar\n\n");
